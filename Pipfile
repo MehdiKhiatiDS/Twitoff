@@ -5,11 +5,15 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+ipykernel = "*"
 
 [packages]
 flask = "*"
 basilica = "*"
 flask-sqlalchemy = "*"
+tweepy = "*"
+python-dotenv = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.7"
